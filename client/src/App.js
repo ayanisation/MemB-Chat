@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route, Switch } from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
 import Homepage from "./Components/Homepage";
 import ChatRoom from "./Components/ChatRoom";
 import Signup from "./Components/Signup";
@@ -15,6 +15,7 @@ function App() {
       <Route exact path="/login" component={Login} />
       <Route exact path="/register" component={Signup} />
       <Route exact path="/search" component={Searcher} />
+      <Redirect to="/" />
     </Switch>
   );
 }
