@@ -1,6 +1,6 @@
 {
   "name": "memb_chat",
-  "homepage": "https://ayanisation.github.io/MemB-Chat/",
+  "homepage": "https://ayanisation.github.io/MemB-Chat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
