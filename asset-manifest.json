@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MemB-Chat/static/css/main.64fd5b7e.chunk.css",
-    "main.js": "/MemB-Chat/static/js/main.b3e94cea.chunk.js",
-    "main.js.map": "/MemB-Chat/static/js/main.b3e94cea.chunk.js.map",
+    "main.js": "/MemB-Chat/static/js/main.bffa3885.chunk.js",
+    "main.js.map": "/MemB-Chat/static/js/main.bffa3885.chunk.js.map",
     "runtime-main.js": "/MemB-Chat/static/js/runtime-main.92d10fdc.js",
     "runtime-main.js.map": "/MemB-Chat/static/js/runtime-main.92d10fdc.js.map",
     "static/css/2.8dc482e0.chunk.css": "/MemB-Chat/static/css/2.8dc482e0.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.8dc482e0.chunk.css",
     "static/js/2.302d00dc.chunk.js",
     "static/css/main.64fd5b7e.chunk.css",
-    "static/js/main.b3e94cea.chunk.js"
+    "static/js/main.bffa3885.chunk.js"
   ]
 }
