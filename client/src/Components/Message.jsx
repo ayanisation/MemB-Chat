@@ -12,10 +12,10 @@ export default function Message({
   chatId,
   socket,
   reciever,
+  prevDay,
 }) {
   const dispatch = useDispatch();
-  const day = message.date?.slice(0, 2);
-  const newDay = day === message.date?.slice(0, 2) ? false : true;
+  const newDay = prevDay === message.date?.slice(0, 2) ? false : true;
   const jc = message.name === currentUsername ? "flex-end" : "flex-start";
   const bg = message.name === currentUsername ? "#C2936E" : "#F3F3F3";
   const [anchorEl, setAnchorEl] = useState(null);

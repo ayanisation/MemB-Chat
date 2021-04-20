@@ -62,6 +62,7 @@ const useStyles = makeStyles((theme) => ({
 const ENDPOINT = "https://memb-chat-server.herokuapp.com";
 let chats = [];
 let currentChat = {};
+let currentMessages = [];
 let socket;
 
 export default function ChatRoom() {
@@ -72,6 +73,7 @@ export default function ChatRoom() {
 
   chats = useSelector((state) => state.chats);
   currentChat = chats.find((chat) => chat._id === chatId);
+  currentMessages = currentChat?.messages;
 
   const [message, setMessage] = useState("");
   const [media, setMedia] = useState("");
@@ -188,7 +190,7 @@ export default function ChatRoom() {
         {chatId ? (
           <>
             <ScrollableFeed forceScroll="true">
-              {currentChat?.messages.map((message, index) => (
+              {currentMessages.map((message, index, currentMessages) => (
                 <Message
                   key={message._id}
                   message={message}
@@ -200,6 +202,11 @@ export default function ChatRoom() {
                     currentChat.participants[0] === currentUser.username
                       ? currentChat.participants[1]
                       : currentChat.participants[0]
+                  }
+                  prevDay={
+                    index === 0
+                      ? -1
+                      : currentMessages[index - 1].date.slice(0, 2)
                   }
                 />
               ))}
