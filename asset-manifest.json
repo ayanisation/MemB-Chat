@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/MemB-Chat/static/css/main.64fd5b7e.chunk.css",
-    "main.js": "/MemB-Chat/static/js/main.b04f3f7c.chunk.js",
-    "main.js.map": "/MemB-Chat/static/js/main.b04f3f7c.chunk.js.map",
+    "main.js": "/MemB-Chat/static/js/main.b3e94cea.chunk.js",
+    "main.js.map": "/MemB-Chat/static/js/main.b3e94cea.chunk.js.map",
     "runtime-main.js": "/MemB-Chat/static/js/runtime-main.92d10fdc.js",
     "runtime-main.js.map": "/MemB-Chat/static/js/runtime-main.92d10fdc.js.map",
     "static/css/2.8dc482e0.chunk.css": "/MemB-Chat/static/css/2.8dc482e0.chunk.css",
-    "static/js/2.af1421e7.chunk.js": "/MemB-Chat/static/js/2.af1421e7.chunk.js",
-    "static/js/2.af1421e7.chunk.js.map": "/MemB-Chat/static/js/2.af1421e7.chunk.js.map",
+    "static/js/2.302d00dc.chunk.js": "/MemB-Chat/static/js/2.302d00dc.chunk.js",
+    "static/js/2.302d00dc.chunk.js.map": "/MemB-Chat/static/js/2.302d00dc.chunk.js.map",
     "static/js/3.d6289d98.chunk.js": "/MemB-Chat/static/js/3.d6289d98.chunk.js",
     "static/js/3.d6289d98.chunk.js.map": "/MemB-Chat/static/js/3.d6289d98.chunk.js.map",
     "index.html": "/MemB-Chat/index.html",
     "static/css/2.8dc482e0.chunk.css.map": "/MemB-Chat/static/css/2.8dc482e0.chunk.css.map",
     "static/css/main.64fd5b7e.chunk.css.map": "/MemB-Chat/static/css/main.64fd5b7e.chunk.css.map",
-    "static/js/2.af1421e7.chunk.js.LICENSE.txt": "/MemB-Chat/static/js/2.af1421e7.chunk.js.LICENSE.txt",
+    "static/js/2.302d00dc.chunk.js.LICENSE.txt": "/MemB-Chat/static/js/2.302d00dc.chunk.js.LICENSE.txt",
     "static/media/favicon.8d2933b8.ico": "/MemB-Chat/static/media/favicon.8d2933b8.ico"
   },
   "entrypoints": [
     "static/js/runtime-main.92d10fdc.js",
     "static/css/2.8dc482e0.chunk.css",
-    "static/js/2.af1421e7.chunk.js",
+    "static/js/2.302d00dc.chunk.js",
     "static/css/main.64fd5b7e.chunk.css",
-    "static/js/main.b04f3f7c.chunk.js"
+    "static/js/main.b3e94cea.chunk.js"
   ]
 }
